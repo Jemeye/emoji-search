@@ -6,11 +6,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Buscador de Emojis</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" media="(min-width: 768px)" href="./css/tablet.css" >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Epilogue:ital,wght@1,300;1,500;1,700&family=Inter:wght@300;500&display=swap" rel="stylesheet">
+    <script defer src="./main.js"></script>
 </head>
 <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
-    <script src="./main.js"></script>
+    <header>
+        <figure class="header--logo">
+            <img src="../img/giphy-logo-1.svg" alt="logo" class="logo-img">
+        </figure>
+        <div class="title">
+            <h1>App de GIFS</h1>
+        </div>
+    </header>
+    <main>
+        <section class="input">
+            <form method="get">
+                <input type="text" name="search" id="search" placeholder="Busca un GIF..." class="input--gif">
+                <input type="button" value="Buscar" id="button-search">
+            </form>
+        </section>
+        <section class="gif-container">
+            <figure class="git-containter__content">
+                <iframe src="https://giphy.com/embed/BzyTuYCmvSORqs1ABM" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+            </figure>
+            <figure class="git-containter__content">
+                <iframe src="https://giphy.com/embed/ICOgUNjpvO0PC" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+            </figure>
+            <figure class="git-containter__content">
+                <iframe src="https://giphy.com/embed/mlvseq9yvZhba" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+            </figure>
+            <figure class="git-containter__content">
+                <iframe src="https://giphy.com/embed/jpbnoe3UIa8TU8LM13" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+            </figure>
+            <figure class="git-containter__content">
+                <iframe src="https://giphy.com/embed/VbnUQpnihPSIgIXuZv" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+            </figure>
+            <figure class="git-containter__content">
+                <iframe src="https://giphy.com/embed/13CoXDiaCcCoyk" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+            </figure>
+            <figure class="git-containter__content">
+                <iframe src="https://giphy.com/embed/ToMjGppLes0ENI5osCc" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+            </figure>
+            <figure class="git-containter__content">
+                <iframe src="https://giphy.com/embed/7ztUcJsFqnkWVph2h2" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+            </figure>
+            <figure class="git-containter__content">
+                <iframe src="https://giphy.com/embed/sr8jYZVVsCmxddga8w" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+            </figure>
+        </section>
+    </main>
+    <footer><p>&copy; 2022 Jenifer Medina Yepez</p></footer>
 </body>
 </html>

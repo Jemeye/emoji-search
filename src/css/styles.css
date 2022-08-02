@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Epilogue', sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+:root{
+    --dark-blue: #264653;
+    --light-blue: #2a9d8f;
+    --yellow: #e9c46a;
+    --orange: #f4a261
+}
+
+body{
+    position: relative;
+    width: 100%;
+    background-color: var(--dark-blue);
+}
+
+header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    min-width: 480px;
+    height: 6.5rem;
+    font-weight: bold;
+    background-color: var(--light-blue);
+    color: var(--yellow);
+}
+
+.header--logo{
+    width: 30px;
+    height: 30px;
+    margin-left: 1rem;
+    margin-right: 3rem;
+}
+
+.logo-img{
+    width: 100%;
+    height: 100%;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    width: calc(100% - 30px);
+}
+
+.title h1{
+    font-size: 3rem;
+}
+
+footer{
+    position:absolute;
+    top: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-width: 480px;
+    height: 4.5rem;
+    background-color: var(--light-blue);
+    color: var(--yellow);
+}
+
+footer p{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-width: 480px;
+    margin: 40px auto;
+}
+
+.input{
+    display: inline-block;
+    width: 70%;
+    height: 2rem;
+    text-align: center;
+}
+
+.input form{
+    display: inline-block;
+    width: 100%;
+}
+
+form .input--gif{
+    width: 70%;
+    height: 4.5rem;
+    border-radius: 8px;
+    border: 3px solid var(--orange);
+    text-align: center;
+}
+
+form input:nth-child(2){
+    height: 4rem;
+    width: 8rem;
+    margin-left: 15px;
+    border-radius: 8px;
+    border: solid var(--orange);
+    background-color: var(--orange);
+    color: black;
+    font-weight: bold;
+
+}
+
+.gif-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-width: 480px;
+    max-width: 900px;
+    margin: 40px auto;
+
+}
+
+.git-containter__content{
+    /* background-color: var(--light-blue); */
+    margin: 20px;
+}
+
+.git-containter__content iframe{
+    width: 250px;
+    height: 250px;
+}
+
+
